@@ -97,11 +97,6 @@ ol {
   width: 100%;
 }
 
-.cards-list-item-template {
-  display: flex;
-  flex-direction: column;
-}
-
 .result {
   display: flex;
   flex-direction: column;
@@ -248,10 +243,11 @@ ol {
   background: #545050;
 }
 
-.content__card-link:hover .content__video-card-title,
-.content__card-link:hover .content__video-card-description {
+.content__list-item:hover .content__video-card-title,
+.content__list-item:hover .content__video-card-description {
   text-decoration: underline;
 }
+
 
 .content__card-link_current {
   background: #545050;
