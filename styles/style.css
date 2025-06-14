@@ -243,8 +243,7 @@ ol {
   background: #545050;
 }
 
-.content__list-item:hover .content__video-card-title,
-.content__list-item:hover .content__video-card-description {
+.content__card-link:hover {
   text-decoration: underline;
 }
 
