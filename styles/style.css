@@ -231,6 +231,10 @@ ol {
   color: #fff;
 }
 
+.content__list-container{
+  position: relative;
+}
+
 .content__card-link:focus {
   outline: none;
 }
